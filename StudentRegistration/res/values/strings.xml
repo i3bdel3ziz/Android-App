@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">"Student Registration "</string>
+    <string name="studreg">"Add Student"</string>
+    <string name="photo">"Take/Select Photos"</string>
+    <string name="searchdb">"Search"</string>
+    <string name="viewphoto">"Select Photos"</string>
+    <string name="takephoto">"Take Photo"</string>
+    <string name="sss">"imageview"</string>
+    <string name="save">"Update"</string>
+    <string name="delete">"Delete"</string>
+    <string name="updDel">"Update/Delete"</string>
+    <string name="textv">"App allows for user to save and view student details"</string>
+    <string name="textv2">"Fill in the student details below"</string>
+    <string name="textv22">"Edit the student details below"</string>
+    <string name="textv3">"Search and view student details using Student ID"</string>
+    <string name="register">"Register"</string>
+    <string name="studid">"Student No"</string>
+    <string name="username">"Username"</string>
+    <string name="lname">"Last name"</string>
+    <string name="studid2">"Search using Student ID"</string>
+    <string name="uniname">"Full University Name"</string>
+    <string name="gender">"Gender"</string>
+    <string name="dob">"Date of Birth"</string>
+    <string name="entryyr">"Entry year"</string>
+    <string name="level">"Level"</string>
+    <string name="country">"Country of Origin"</string>
+    <string name="degree">"Degree Program"</string>
+    <string name="degcode">"Code"</string>
+    <string name="haddr">"Home Address"</string>
+    <string name="localph">"Local Phone No."</string>
+    <string name="localaddr">"Local Address"</string>
+    <string name="mobile">"Mobile Phone Number"</string>
+</resources>

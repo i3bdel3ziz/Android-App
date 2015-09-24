@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/textv2" />
+
+    <EditText
+        android:id="@+id/txtuniname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="@string/uniname" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtregid"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtuniname"
+        android:ems="10"
+        android:hint="@string/studid"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtuniname"
+        android:layout_toRightOf="@+id/txtregid"
+        android:ems="10"
+        android:hint="@string/gender" ></EditText>
+
+    <EditText
+        android:id="@+id/txtusertname"
+        android:hint="@string/username"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtregid"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtdob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtusertname"
+        android:layout_alignBottom="@+id/txtusertname"
+        android:layout_alignLeft="@+id/txtgender"
+        android:ems="10"
+        android:hint="@string/dob"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txtentryyr"
+        android:layout_width="150dp"
+        android:hint="@string/entryyr"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtusertname"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtentryyr"
+        android:layout_alignBottom="@+id/txtentryyr"
+        android:layout_alignLeft="@+id/txtdob"
+        android:ems="10"
+        android:hint="@string/level"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtcountry"
+        android:hint="@string/country"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtentryyr"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtdegree"
+        android:hint="@string/degree"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtcountry"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtdegreecode"
+        android:hint="@string/degcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcountry"
+        android:layout_toRightOf="@+id/txtdegree"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txthaddr"
+        android:hint="@string/haddr"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtdegree"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtphno"
+        android:hint="@string/localaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtdegreecode"
+        android:layout_below="@+id/txtdegreecode"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtlocalph"
+        android:hint="@string/localph"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txthaddr"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtmob"
+        android:hint="@string/mobile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtlocalph"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:onClick = "ButtonRegister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmob"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register" />
+
+</RelativeLayout>
